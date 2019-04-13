@@ -7,7 +7,7 @@ public class Bill extends CustomerName{
 	 //bill no & date
     //methods like totalAmt ,printBill,discount
     public static String getRandomNumberString() {
-        // It wishopTestll generate 6 digit random Number.
+        // It will generate 6 digit random Number.
         // from 0 to 999999
         Random rnd = new Random();
         int number = rnd.nextInt(999999);

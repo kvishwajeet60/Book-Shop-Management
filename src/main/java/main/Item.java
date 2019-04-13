@@ -2,9 +2,10 @@ package main;
 public class Item{
     public String itemName;
     public int mrp;
-    public  void addItem(String itemName,int mrpItem){
-        //write your code here
-    	//-------------------
+    public  void addItem(String itemName,int mrp){   //mrpItem
+        //code here
+    	this.itemName = itemName;
+    	this.mrp = mrp;
 
     }
 	public String getItemName() {
